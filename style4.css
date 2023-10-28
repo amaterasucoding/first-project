@@ -1,0 +1,365 @@
+.avion {
+    position: absolute;
+    top: 20px;
+    left: 687px;
+  }
+  .plant-pots {
+    position: relative;
+  }
+  .main-links {
+    position: absolute;
+    top: 90px;
+    left: 382px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 44px;
+    font-size: 16px;
+    color: var(--color-slategray);
+    font-family: var(--body-small);
+  }
+  .divider {
+    position: absolute;
+    width: 96.32%;
+    top: 69.5px;
+    right: 1.77%;
+    left: 1.91%;
+    border-top: 1px solid #726e8d;
+    box-sizing: border-box;
+    height: 1px;
+  }
+  .search-icon,
+  .shopping-cart-icon,
+  .user-avatar-icon {
+    position: absolute;
+    top: 26px;
+    left: 1396px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+  }
+  .search-icon,
+  .shopping-cart-icon {
+    left: 1364px;
+  }
+  .search-icon {
+    left: 28px;
+  }
+  .top-nav {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 132px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 24px;
+    font-family: "Clash Display";
+  }
+  .product,
+  .quantity,
+  .your-shopping-cart {
+    position: absolute;
+    left: 188px;
+    line-height: 140%;
+    font-family: "Clash Display";
+  }
+  .your-shopping-cart {
+    top: 64px;
+    font-size: 36px;
+  }
+  .product,
+  .quantity {
+    top: 162px;
+  }
+  .quantity {
+    left: 838px;
+  }
+  .div,
+  .div1,
+  .total {
+    position: absolute;
+    left: 1212px;
+  }
+  .total {
+    top: 162px;
+    line-height: 140%;
+    font-family: "Clash Display";
+  }
+  .div,
+  .div1 {
+    top: 225px;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .div1 {
+    top: 380px;
+    left: 1209px;
+  }
+  .product-image-icon {
+    position: relative;
+    width: 109px;
+    height: 134px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .graystone-vase {
+    position: relative;
+    line-height: 140%;
+    font-family: "Clash Display";
+  }
+  .a-timeless-ceramic {
+    margin: 0;
+  }
+  .a-timeless-ceramic-container,
+  .div2 {
+    position: relative;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .div2 {
+    font-size: 16px;
+  }
+  .description,
+  .product-one,
+  .product-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .product-one,
+  .product-two {
+    position: absolute;
+    top: 214px;
+    left: 188px;
+    flex-direction: row;
+    align-items: center;
+    gap: 21px;
+    font-size: 20px;
+  }
+  .product-two {
+    top: 368px;
+  }
+  .divider1,
+  .divider2 {
+    position: absolute;
+    top: 193.5px;
+    left: 187.5px;
+    border-top: 1px solid #ebe8f4;
+    box-sizing: border-box;
+    width: 1065px;
+    height: 1px;
+  }
+  .divider2 {
+    top: 533.5px;
+  }
+  .div4,
+  .subtotal1 {
+    position: relative;
+    line-height: 140%;
+  }
+  .div4 {
+    font-size: 24px;
+    color: #2a254b;
+  }
+  .subtotal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .taxes-and-shipping {
+    position: relative;
+    font-size: 14px;
+    line-height: 150%;
+    font-family: "Satoshi";
+  }
+  .pricing-information {
+    position: absolute;
+    top: 562px;
+    left: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 12px;
+    text-align: right;
+    font-size: 20px;
+    color: #4e4d93;
+    font-family: "Clash Display";
+  }
+  .div6 {
+    position: relative;
+    color: #2a254b;
+  }
+  .stepper,
+  .stepper1 {
+    position: absolute;
+    top: 226px;
+    left: 838px;
+    background-color: #f9f9f9;
+    width: 122px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #ebe8f4;
+  }
+  .stepper1 {
+    top: 380px;
+  }
+  .button {
+    position: relative;
+    line-height: 150%;
+  }
+  .button-medium {
+    position: absolute;
+    top: 645px;
+    left: 1080px;
+    background-color: #2a254b;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 32px;
+    font-size: 16px;
+    color: #fff;
+  }
+  .shopping-basket {
+    position: relative;
+    background-color: #f9f9f9;
+    width: 1440px;
+    height: 749px;
+    color: #2a254b;
+  }
+  .menu1 {
+    position: relative;
+    font-size: 16px;
+    font-family: "Clash Display";
+  }
+  .categories,
+  .menu {
+    position: absolute;
+    top: 58px;
+    left: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .categories {
+    left: 299px;
+  }
+  .copyright-2022-avion,
+  .our-company {
+    position: absolute;
+    top: 336px;
+    left: 80px;
+  }
+  .our-company {
+    top: 58px;
+    left: 516px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .join-our-mailing {
+    position: absolute;
+    top: 58px;
+    left: 730px;
+    font-size: 16px;
+    font-family: "Clash Display";
+  }
+  .footer-child {
+    position: absolute;
+    top: 311.5px;
+    left: 79.5px;
+    border-top: 1px solid #4e4d93;
+    box-sizing: border-box;
+    width: 1278px;
+    height: 1px;
+  }
+  .logo-linkedin-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .social-links {
+    position: absolute;
+    top: 334px;
+    left: 1093px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .youremailcom {
+    position: absolute;
+    top: 17px;
+    left: 32px;
+  }
+  .youremailcom-wrapper {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+  }
+  .button-medium1,
+  .text-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button-medium1 {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 16px 32px;
+    color: #2a254b;
+  }
+  .text-input {
+    position: absolute;
+    top: 94px;
+    left: 730px;
+    width: 627px;
+    font-size: 16px;
+  }
+  .footer {
+    position: relative;
+    background-color: #2a254b;
+    width: 1440px;
+    height: 380px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: #fff;
+  }
+  .product-v3 {
+    position: relative;
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #22202e;
+    font-family: "Satoshi";
+  }
+  

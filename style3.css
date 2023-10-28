@@ -1,0 +1,523 @@
+.close-icon {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .delivery-icon {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .delivery-icon,
+  .free-delivery-on {
+    position: relative;
+  }
+  .delivery-parent {
+    position: absolute;
+    top: 11px;
+    left: calc(50% - 204px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .banners {
+    position: relative;
+    background-color: #2a254b;
+    width: 1440px;
+    height: 41px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: "Satoshi";
+  }
+  .avion {
+    position: absolute;
+    top: 21px;
+    left: 28px;
+    font-size: 24px;
+    font-family: "Satoshi";
+    color: #22202e;
+  }
+  .main-links,
+  .right-actions,
+  .right-links {
+    position: absolute;
+    top: 24px;
+    left: 1047px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .main-links,
+  .right-actions {
+    top: 30px;
+    left: 1309px;
+    gap: 16px;
+  }
+  .main-links {
+    top: 20px;
+    left: 318px;
+    gap: 44px;
+  }
+  .bottom-bar {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0;
+    left: 0;
+    background-color: #f9f9f9;
+    height: 64px;
+  }
+  .top-nav {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 134px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 16px;
+    color: #726e8d;
+    font-family: "Satoshi";
+  }
+  .a-brand-built {
+    margin: 0;
+  }
+  .a-brand-built-container {
+    position: absolute;
+    top: 67px;
+    left: 367px;
+    line-height: 140%;
+  }
+  .page-headers {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 246px;
+    text-align: center;
+    font-size: 36px;
+  }
+  .from-a-studio-container {
+    position: relative;
+    line-height: 140%;
+  }
+  .when-we-started-container {
+    position: relative;
+    font-size: 16px;
+    font-family: "Satoshi";
+    color: #505977;
+    display: inline-block;
+    width: 536px;
+  }
+  .top-content {
+    position: absolute;
+    top: 72px;
+    left: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+  }
+  .button {
+    position: relative;
+    line-height: 150%;
+  }
+  .button-medium {
+    position: absolute;
+    top: 493px;
+    left: 84px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-family: "Satoshi";
+  }
+  .image-icon,
+  .left-content {
+    position: absolute;
+    top: 0;
+    width: 720px;
+    height: 603px;
+    overflow: hidden;
+  }
+  .left-content {
+    left: 0;
+    background-color: #fff;
+  }
+  .image-icon {
+    left: 720px;
+    object-fit: cover;
+  }
+  .features {
+    position: relative;
+    width: 1440px;
+    height: 603px;
+    font-size: 24px;
+  }
+  .image-icon1 {
+    top: 0;
+    left: 0;
+    width: 720px;
+    height: 603px;
+    object-fit: cover;
+  }
+  .button-medium1,
+  .image-icon1,
+  .right-content {
+    position: absolute;
+    overflow: hidden;
+  }
+  .right-content {
+    top: 0;
+    left: 720px;
+    background-color: #fff;
+    width: 720px;
+    height: 603px;
+  }
+  .button-medium1 {
+    top: 493px;
+    left: 804px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-family: "Satoshi";
+  }
+  .what-makes-our {
+    position: absolute;
+    top: 60px;
+    left: 529px;
+    font-size: 24px;
+    line-height: 140%;
+  }
+  .order-before-3pm-container {
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    display: inline-block;
+    width: 270px;
+  }
+  .feature-block,
+  .next-day-as-standard-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .feature-block {
+    position: absolute;
+    top: 145px;
+    left: 86px;
+    gap: 16px;
+  }
+  .sprout-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .recycled-packaging,
+  .we-use-100 {
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    width: 196px;
+  }
+  .we-use-100 {
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    width: 265px;
+  }
+  .feature-block1,
+  .recycled-packaging-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11px;
+  }
+  .feature-block1 {
+    position: absolute;
+    top: 145px;
+    left: 1065px;
+    gap: 13px;
+  }
+  .for-our-materials {
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    display: inline-block;
+    width: 235px;
+  }
+  .feature-block2 {
+    position: absolute;
+    top: 145px;
+    left: 739px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .handmade-crafted-goods-container {
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    display: inline-block;
+    width: 266px;
+  }
+  .feature-block3 {
+    position: absolute;
+    top: 145px;
+    left: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .features2 {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 355px;
+    font-size: 20px;
+  }
+  .sign-up-for {
+    position: relative;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    display: inline-block;
+    width: 470px;
+  }
+  .top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .checkmark-filled-parent {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .benefits,
+  .checkmark-filled-parent,
+  .top-content2 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .benefits {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 36px;
+    font-size: 16px;
+    font-family: "Satoshi";
+  }
+  .top-content2 {
+    position: absolute;
+    top: 97px;
+    left: 473px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 444px;
+    overflow: hidden;
+    background-image: url(./Image\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .youremailcom {
+    position: absolute;
+    top: 17px;
+    left: 32px;
+    opacity: 0.2;
+  }
+  .youremailcom-wrapper {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  .button-medium2,
+  .text-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button-medium2 {
+    background-color: #2a254b;
+    overflow: hidden;
+    padding: 16px 32px;
+    color: #fff;
+  }
+  .text-input {
+    position: absolute;
+    top: 302px;
+    left: 484px;
+    width: 472px;
+    text-align: left;
+    font-size: 16px;
+    color: #2a254b;
+    font-family: "Satoshi";
+  }
+  .email-sign-up {
+    position: relative;
+    background-color: #f9f9f9;
+    width: 1440px;
+    height: 444px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+  }
+  .menu1 {
+    position: relative;
+    font-size: 16px;
+    font-family: "Calsh Display";
+  }
+  .categories,
+  .menu {
+    position: absolute;
+    top: 58px;
+    left: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .categories {
+    left: 299px;
+  }
+  .copyright-2022-avion,
+  .our-company {
+    position: absolute;
+    top: 336px;
+    left: 80px;
+  }
+  .our-company {
+    top: 58px;
+    left: 516px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .join-our-mailing {
+    position: absolute;
+    top: 58px;
+    left: 730px;
+    font-size: 16px;
+    font-family: "Clash Display";
+  }
+  .footer-child {
+    position: absolute;
+    top: 311.5px;
+    left: 79.5px;
+    border-top: 1px solid #4e4d93;
+    box-sizing: border-box;
+    width: 1278px;
+    height: 1px;
+  }
+  .social-links {
+    position: absolute;
+    top: 334px;
+    left: 1093px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .youremailcom1 {
+    position: absolute;
+    top: 17px;
+    left: 32px;
+  }
+  .youremailcom-container {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+  }
+  .button-medium3,
+  .text-input1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button-medium3 {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 16px 32px;
+    color: #2a254b;
+  }
+  .text-input1 {
+    position: absolute;
+    top: 94px;
+    left: 730px;
+    width: 627px;
+    font-size: 16px;
+  }
+  .footer,
+  .product-v3 {
+    position: relative;
+    overflow: hidden;
+  }
+  .footer {
+    background-color: #2a254b;
+    width: 1440px;
+    height: 380px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: "Satoshi";
+  }
+  .product-v3 {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #2a254b;
+    font-family: 32px;
+  }
+  

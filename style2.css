@@ -1,0 +1,655 @@
+
+/*body {
+    width:100vw;
+    height:100vh;
+    }*/
+
+.close-icon {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    color: transparent #fff;
+    background-blend-mode: multiply;
+  }
+  .delivery-icon {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .delivery-icon,
+  .free-delivery-on {
+    position: relative;
+  }
+  .delivery-parent {
+    position: absolute;
+    top: 11px;
+    left: calc(50% - 204px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .banners {
+    position: relative;
+    background-color: #2a254b;
+    width: 1440px;
+    height: 41px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: "Satoshi";
+  }
+  .avion {
+    position: absolute;
+    top: 25px;
+    left: 80px;
+  }
+  .main-links,
+  .side-actions {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main-links {
+    top: 29px;
+    left: 297px;
+    gap: 44px;
+    font-size: 16px;
+    color: #726e8d;
+    font-family: "Satoshi";
+  }
+  .side-actions {
+    top: 30px;
+    left: 1280px;
+    gap: 16px;
+  }
+  .top-nav {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 80px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 24px;
+    color: #22202e;
+  }
+  .image-left-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 721px;
+    height: 759px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .a-timeless-design {
+    position: relative;
+    display: inline-block;
+    width: 498px;
+    color: #505977;
+    font-family: "Satoshi";
+    font-size: 16px;
+  }
+  .premium-material {
+    margin-bottom: 0;
+  }
+  .premium-material-handmade-upho {
+    margin: 0;
+    padding-left: 21px;
+  }
+  .premium-material-handmade-container {
+    color: #505977;
+    position: relative;
+    font-size: 16px;
+    font-family: "Satoshi";
+    display: inline-block;
+    width: 498px;
+  }
+  .a-timeless-design-with-premiu-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .description-text-inner {
+    width: 522px;
+    color: #505977;
+    font-family: "Satoshi";
+  }
+  .description,
+  .description-text,
+  .description-text-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .description-text {
+    gap: 16px;
+  }
+  .description {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 602px;
+    height: 251px;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  .cm {
+    position: relative;
+    font-size: 16px;
+    font-family: "Satoshi";
+    color: #505977;
+  }
+  .height {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .dimensions-text,
+  .height,
+  .metrics {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .metrics {
+    flex-direction: row;
+    gap: 57px;
+    font-size: 14px;
+  }
+  .dimensions-text {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .dimensions {
+    position: absolute;
+    top: 401px;
+    left: 0;
+    width: 602px;
+    height: 134px;
+    overflow: hidden;
+  }
+  .div1 {
+    position: relative;
+    color: #2a254b;
+  }
+  .quantitiy,
+  .stepper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .stepper {
+    background-color: #f9f9f9;
+    width: 122px;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    color: #cac6da;
+    font-family: "Satoshi";
+  }
+  .quantitiy {
+    position: absolute;
+    top: 27px;
+    left: 40px;
+    justify-content: flex-start;
+    gap: 22px;
+  }
+  .button {
+    position: relative;
+    line-height: 150%;
+  }
+  .amount,
+  .button-medium {
+    position: absolute;
+    overflow: hidden;
+  }
+  .button-medium {
+    top: 27px;
+    left: 419px;
+    background-color: #2a254b;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 32px;
+    color: #fff;
+    font-family: "Satoshi";
+  }
+  .amount {
+    top: 542px;
+    left: 0;
+    width: 602px;
+    height: 115px;
+  }
+  .div3 {
+    position: relative;
+    font-size: 24px;
+    font-family: "Satoshi";
+    color: #12131a;
+  }
+  .the-dandy-chair-parent {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 36px;
+  }
+  .product-details,
+  .wrapper {
+    background-color: #fff;
+  }
+  .wrapper {
+    position: absolute;
+    top: 51px;
+    left: 783px;
+    width: 602px;
+    height: 657px;
+  }
+  .product-details {
+    position: relative;
+    width: 1440px;
+    height: 759px;
+    font-size: 16px;
+  }
+  .new-ceramics {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    font-size: 32px;
+  }
+  .photo-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .div4,
+  .parent {
+    position: relative;
+  }
+  .parent {
+    width: 305px;
+    height: 375px;
+  }
+  .div4 {
+    font-size: 18px;
+    line-height: 150%;
+    font-family: "Satoshi";
+  }
+  .details,
+  .product-card,
+  .product-card1,
+  .product-card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .product-card,
+  .product-card1,
+  .product-card2 {
+    position: absolute;
+    top: calc(50% - 228.5px);
+    left: calc(50% - 640px);
+    gap: 24px;
+  }
+  .product-card1,
+  .product-card2 {
+    left: calc(50% - 315px);
+  }
+  .product-card2 {
+    left: calc(50% + 10px);
+  }
+  .parent3 {
+    position: relative;
+    width: 305px;
+    height: 375px;
+    background-image: url(./public/parent@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .button-medium1,
+  .product-card3 {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .product-card3 {
+    top: calc(50% - 228.5px);
+    left: calc(50% + 335px);
+    flex-direction: column;
+    gap: 24px;
+  }
+  .button-medium1 {
+    top: 649px;
+    left: 635px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-family: "Satoshi";
+  }
+  .listings {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 761px;
+    font-size: 20px;
+  }
+  .what-makes-our {
+    position: absolute;
+    top: 60px;
+    left: 529px;
+    font-size: 24px;
+    line-height: 140%;
+  }
+  .next-day-as {
+    position: relative;
+    line-height: 140%;
+  }
+  .order-before-3pm {
+    margin: 0;
+  }
+  .order-before-3pm-container {
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    display: inline-block;
+    width: 270px;
+  }
+  .feature-block {
+    position: absolute;
+    top: 145px;
+    left: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .sprout-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .recycled-packaging,
+  .we-use-100 {
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    width: 196px;
+  }
+  .we-use-100 {
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    width: 265px;
+  }
+  .feature-block1,
+  .recycled-packaging-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11px;
+  }
+  .feature-block1 {
+    position: absolute;
+    top: 145px;
+    left: 1065px;
+    gap: 13px;
+  }
+  .for-our-materials {
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    display: inline-block;
+    width: 235px;
+  }
+  .feature-block2 {
+    position: absolute;
+    top: 145px;
+    left: 739px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .handmade-crafted-goods-container {
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'Satoshi';
+    display: inline-block;
+    width: 266px;
+  }
+  .feature-block3 {
+    position: absolute;
+    top: 145px;
+    left: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .features {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 355px;
+    font-size: 20px;
+  }
+  .join-the-club,
+  .sign-up-for {
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    width: 571px;
+  }
+  .sign-up-for {
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Satoshi";
+    width: 470px;
+  }
+  .text-content {
+    position: absolute;
+    top: 68px;
+    left: 351px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .youremailcom {
+    position: absolute;
+    top: 17px;
+    left: 32px;
+    opacity: 0.2;
+  }
+  .youremailcom-wrapper {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  .button-medium2,
+  .text-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button-medium2 {
+    background-color: #2a254b;
+    overflow: hidden;
+    padding: 16px 32px;
+    color: #fff;
+  }
+  .text-input {
+    position: absolute;
+    top: 254px;
+    left: 400px;
+    width: 472px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Satoshi";
+  }
+  .container {
+    position: absolute;
+    top: 52px;
+    left: 93px;
+    background-color: #fff;
+    width: 1273px;
+    height: 364px;
+    overflow: hidden;
+  }
+  .email-sign-up {
+    position: relative;
+    background-color: #f9f9f9;
+    width: 1440px;
+    height: 481px;
+    text-align: center;
+    font-size: 36px;
+  }
+  .menu1 {
+    position: relative;
+    font-size: 16px;
+    font-family: "Clash Display";
+  }
+  .address,
+  .menu {
+    position: absolute;
+    top: 53px;
+    left: 731px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .address {
+    top: 119px;
+    left: 80px;
+  }
+  .social-links {
+    position: absolute;
+    top: 53px;
+    left: 297px;
+    font-size: 16px;
+    font-family: "Clash Display";
+  }
+  .categories {
+    position: absolute;
+    top: 53px;
+    left: 948px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .copyright-2022-avion,
+  .our-company {
+    position: absolute;
+    top: 311px;
+    left: 80px;
+  }
+  .our-company {
+    top: 53px;
+    left: 1167px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .footer-child {
+    position: absolute;
+    top: 294.5px;
+    left: 79.5px;
+    border-top: 1px solid #4e4d93;
+    box-sizing: border-box;
+    width: 1278px;
+    height: 1px;
+  }
+  .avion1 {
+    position: absolute;
+    top: 53px;
+    left: 80px;
+    font-size: 36px;
+    line-height: 140%;
+    font-family: "Clash Display";
+  }
+  .social-links1 {
+    position: absolute;
+    top: 95px;
+    left: 297px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .footer {
+    position: relative;
+    background-color: #2a254b;
+    width: 1440px;
+    height: 350px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: "Satoshi";
+  }
+  .product-v3 {
+    position: relative;
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #2a254b;
+    font-family: "Clash Display";
+  }
+  
